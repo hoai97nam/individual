@@ -36,7 +36,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 >`$ cd buildJetsonTX2Kernel`
 
-![Install Kernel 1](/img/404-southpark.jpg)
+![Install Kernel 1](/img/ker1.png)
 
 - There are three main scripts. The first script, getKernelSources.sh gets the kernel sources from the NVIDIA developer website, then unpacks the sources into /usr/src/kernel.
 
@@ -48,7 +48,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - You can add or edit elements on kernel configuration window.
 
-![Install Kernel 2](https://github.com/hoai97nam/hoai97nam.github.io/blob/master/_posts/images/ker2.png)
+![Install Kernel 2](/img/ker2.png)
 
 ## Install OpenCV
 
@@ -57,7 +57,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 >`$ git clone https://github.com/jetsonhacks/buildOpenCVTX2.git`
 >`$ ./buildOpenCV.sh`
 
-![Download OpenCV](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/cv4.png)
+![Download OpenCV](/img/cv4.png)
 
 **Note**: It took me about an hour to finish this process. 
 
@@ -73,7 +73,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Testing `cannyDetection.py` in `buildOpenCVTX2/Examples` , get result:
 
-![Run example](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/cv7.png)
+![Run example](/img/cv7.png)
 
 ## Build YOLO Application
 
@@ -83,7 +83,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Access the folder and config 'Makefile'. We need to change some parameters to be suitable in this system.
 
-![Config Makefile](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/y4.png)
+![Config Makefile](/img/y4.png)
 
 
 - Run in max-lock mode with:
@@ -104,11 +104,11 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 >`$ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -c 1`
 
-![Video-result](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/y2.png)
+![Video-result](/img/y2.png)
 
-![Camera-result](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/r2.png)
+![Camera-result](/img/r2.png)
 
-![Camera-result](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/r3.png)
+![Camera-result](/img/r3.png)
 
 ## Finish
 
