@@ -33,7 +33,6 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 ## Install Kernel and Modules
 - Download buildJetsonTX2Kernel on github.
 >`$ git clone https://github.com/jetsonhacks/buildJetsonTX2Kernel.git`
-
 >`$ cd buildJetsonTX2Kernel`
 
 ![Install Kernel 1](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/ker1.png?raw=true)
@@ -55,7 +54,6 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 - Back to terminal, download packet and install it:
 
 >`$ git clone https://github.com/jetsonhacks/buildOpenCVTX2.git`
-
 >`$ ./buildOpenCV.sh`
 
 ![Download OpenCV](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/cv4.png)
@@ -87,7 +85,6 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 - Run in max-lock mode with:
 
 >`$ sudo nvpmodel -m 0`
-
 >`$ make`
 
 - You can also config in `yolov3.cfg` in `yolov3/cfg` directory. Remember to run `make` after changing anything in config file.
