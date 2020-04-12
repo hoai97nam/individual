@@ -65,11 +65,8 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 - Checking modules after installation (These commands will install a gui to show modules):
 
 >`$ cd /opencv/build`
-
 >`$ apt search ccmake`
-
 >`$ sudo apt-get install cmake-curses-gui`
-
 >`$ ccmake ..`
 
 - Testing `cannyDetection.py` in `buildOpenCVTX2/Examples` , get result:
