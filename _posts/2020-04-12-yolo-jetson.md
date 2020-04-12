@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Integrate YOLO model on NVIDIA Jetson TX2
-subtitle: Each post also has a subtitle
+subtitle: Install and implement application
 gh-repo: hoai97nam/Build-Yolo-model-on-Jetson-TX2
 gh-badge: [star, fork, follow]
 tags: [turorial]
@@ -36,7 +36,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 >`$ cd buildJetsonTX2Kernel`
 
-![Install Kernel 1](/images/ker1.png)
+![Install Kernel 1](https://github.com/hoai97nam/hoai97nam.github.io/blob/master/_posts/images/ker1.png)
 
 - There are three main scripts. The first script, getKernelSources.sh gets the kernel sources from the NVIDIA developer website, then unpacks the sources into /usr/src/kernel.
 
@@ -48,7 +48,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - You can add or edit elements on kernel configuration window.
 
-![Install Kernel 2](/master/images/ker2.png)
+![Install Kernel 2](https://github.com/hoai97nam/hoai97nam.github.io/blob/master/_posts/images/ker2.png)
 
 ## Install OpenCV
 
