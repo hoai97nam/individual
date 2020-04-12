@@ -36,7 +36,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 >`$ cd buildJetsonTX2Kernel`
 
-![Install Kernel 1](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/ker1.png?raw=true)
+![Install Kernel 1](/images/ker1.png)
 
 - There are three main scripts. The first script, getKernelSources.sh gets the kernel sources from the NVIDIA developer website, then unpacks the sources into /usr/src/kernel.
 
@@ -48,7 +48,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - You can add or edit elements on kernel configuration window.
 
-![Install Kernel 2](https://github.com/hoai97nam/Build-Yolo-model-on-Jetson-TX2/blob/master/images/ker2.png)
+![Install Kernel 2](/master/images/ker2.png)
 
 ## Install OpenCV
 
