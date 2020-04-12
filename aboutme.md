@@ -1,18 +1,21 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: My introduction
 ---
 
-Hoai-Nam Nguyen (Nguyễn Hoài Nam) was born in Ho Chi Minh City in 1997. He graduated Nguyen Van Cu High School and became a student at Posts and Telecommunications Institute of Technology (PTIT) in HCMC. His major is Electronics Telecommunications. He will graduate in 2020.
+Nguyen-Hoai **Nam** (Nguyễn Hoài Nam) was born in Ho Chi Minh City in 1997. He graduated Nguyen Van Cu High School and became a student at Posts and Telecommunications Institute of Technology (PTIT) in HCMC. His major is Electronics Telecommunications. He graduated in Feb. 2020.
 
-His research interests include Internet of Things (IoT), Deep Learning (DL), Linux Programming, Embedded System, Artificial Intelligence in Wireless Communication.
+His research interests include Internet of Things (IoT), Machine Learning (ML)/Deep Learning (DL), Linux Programming, Embedded System, Artificial Intelligence in Wireless Communication.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### My Knowledge
+- Finished Programming Concept, Data Structure, Operating System Concept, Linux OS Programming, RTOS in Embbeded System, Microcontrolling and Interfacing, Embbeded Communication, Linux Device Driver.
+- Program on Embbeded Systems: Arduino, Raspberry Pi, NVIDIA Jetson TX2, 8051.
+- Intermediate in C/C++ Programming.
+- Fundamental in Python Script.
+- Recognizing Object and Processing Images by using OpenCV and Tensorflow in Python.
+- Basic in HTML/CSS and Javascript.
+- Deployed recognition models in Machine Learning/Deep Learning.
+- Built mobile applications via Android Studio.
+- Studies of IPFS protocol integrating Permissioned and Permissionless Blockchain (Ethereum and Hyperledger).
+- Develop DApp (Decentralized Application).
