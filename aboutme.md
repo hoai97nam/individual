@@ -19,3 +19,10 @@ His research interests include Internet of Things (IoT), Machine Learning (ML)/D
 - Built mobile applications via Android Studio.
 - Studies of IPFS protocol integrating Permissioned and Permissionless Blockchain (Ethereum and Hyperledger).
 - Develop DApp (Decentralized Application).
+
+## My Hobbies
+- Running is the only sport.
+- Travel and taste culture.
+- Make new craft things.
+- Writting.
+- Meditation.
