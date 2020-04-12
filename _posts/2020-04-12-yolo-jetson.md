@@ -36,7 +36,7 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 >`$ cd buildJetsonTX2Kernel`
 
-![Install Kernel 1](/_posts/images/ker1.png)
+![Install Kernel 1](/img/404-southpark.jpg)
 
 - There are three main scripts. The first script, getKernelSources.sh gets the kernel sources from the NVIDIA developer website, then unpacks the sources into /usr/src/kernel.
 
