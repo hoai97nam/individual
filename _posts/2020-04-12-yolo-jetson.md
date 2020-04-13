@@ -4,7 +4,7 @@ title: Integrate YOLO model on NVIDIA Jetson TX2
 subtitle: Install and implement application
 gh-repo: hoai97nam/Build-Yolo-model-on-Jetson-TX2
 gh-badge: [star, fork, follow]
-tags: [turorial]
+tags: [turorial, YOLO, Jetson TX2, OpenCV]
 comments: true
 ---
 # Build-Yolo-model-on-Jetson-TX2
