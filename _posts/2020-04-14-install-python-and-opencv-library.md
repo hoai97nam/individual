@@ -7,7 +7,7 @@ comments: true
 tags: [OpenCV, Python, Library]
 ---
 
-## Install Python
+### Install Python
 We have 2 main versions of Python: Python 2.x and Python 3.x. **3.x** is more popular.
 [(see the difference [1])](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
 
@@ -29,6 +29,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 Here, we can use Python IDLE (Integrated DeveLopment Environment) as an editor.
 
+### Install OpenCV
+
 - Install OpenCV library: First, we have to install preliminary library.
 ```
 pip install numpy
@@ -44,7 +46,8 @@ Download and install through this [link](https://www.lfd.uci.edu/~gohlke/pythonl
 >>> cv2.__version__
 ```
 
-**Install Python using Anaconda:***
+### Install Python using Anaconda:
+
 [Anaconda] is an open-source distribution of Python and [R](https://en.wikipedia.org/wiki/R_(programming_language)). It aims to simplify package management and deployment.
 
 Python conda can be installed in the process which sets up Ananconda.
