@@ -69,11 +69,8 @@ $ ./buildOpenCV.sh
 
 ```
 $ cd /opencv/build
-
 $ apt search ccmake
-
 $ sudo apt-get install cmake-curses-gui
-
 $ ccmake ..
 ```
 
