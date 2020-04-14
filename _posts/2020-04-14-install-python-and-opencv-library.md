@@ -9,7 +9,7 @@ tags: [OpenCV, Python, Library]
 
 ### Install Python
 We have 2 main versions of Python: Python 2.x and Python 3.x. **3.x** is more popular.
-[(see the difference [1])](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+[(see the difference)](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
 
 **Install Python directly:**
 
