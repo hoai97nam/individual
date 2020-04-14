@@ -57,10 +57,38 @@ Python conda can be installed in the process which sets up Ananconda.
 
 - Next, we create environment to manage package with command `conda create --name <your_env_name>`. This way will generate an environment and contain package library.
 
-- Install OpenCV by command `conda install -c conda-forge opencv`. This solution is easier than install as a global library. However, access in environment is required in every single time we need that package.
+```
+## Package Plan ##
 
+  environment location: D:\Anaconda3\envs\new-env
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate new-env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+```
+`conda actiavte new-env` to access the environment and `conda deactivate new-env` to quit out.
+- Install OpenCV by command `conda install -c conda-forge opencv`. This solution is easier than install as a global library. However, access in environment is required in every single time we need that package. To check the library do following commands:
+
+```
+(new-env) C:\Users\admin>python
+Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>> cv2.__verion__
+'3.4.2'
+```
 ### Conclusion
-This
+Two ways to install Python and OpenCV library. The first way quite hard and inefficient. The second on is recommendation for separated project.
 
 ## References
 [1]. [https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
