@@ -47,12 +47,26 @@ Download and install through this [link](https://www.lfd.uci.edu/~gohlke/pythonl
 **Install Python using Anaconda:***
 [Anaconda] is an open-source distribution of Python and [R](https://en.wikipedia.org/wiki/R_(programming_language)). It aims to simplify package management and deployment.
 
-Python conda can be installed in the process which sets up Ananconda but in this tutorial, Python is initially installed.
+Python conda can be installed in the process which sets up Ananconda.
 
-- Access [Anaconda.com](https://www.anaconda.com/), choose **Downloads** label and consider your platform and Python version
+- Access [Anaconda.com](https://www.anaconda.com/), choose **Downloads** label and consider your platform and Python version.
+
+- Run installationn file and customize options. Add Anaconda to the system PATH environment for using directly on command prompt window. Otherwise, anaconda prompt is also useful. 
+
+- To check the installation, type command `conda info` in command prompt window:
+
+- Next, we create environment to manage package with command `conda create --name <your_env_name>`. This way will generate an environment and contain package library.
+
+- Install OpenCV by command `conda install -c conda-forge opencv`. This solution is easier than install as a global library. However, access in environment is required in every single time we need that package.
+
+### Conclusion
+This
+
 ## References
 [1]. [https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
 
 [2]. [https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
 
 [3]. [https://en.wikipedia.org/wiki/R_(programming_language)](https://en.wikipedia.org/wiki/R_(programming_language))
+
+[4]. [https://anaconda.org/conda-forge/opencv](https://anaconda.org/conda-forge/opencv)
