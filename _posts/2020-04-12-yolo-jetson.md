@@ -32,16 +32,18 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 ## Install Kernel and Modules
 - Download buildJetsonTX2Kernel on github.
->`$ git clone https://github.com/jetsonhacks/buildJetsonTX2Kernel.git`
-
->`$ cd buildJetsonTX2Kernel`
+```
+$ git clone https://github.com/jetsonhacks/buildJetsonTX2Kernel.git`
+$ cd buildJetsonTX2Kernel
+```
 
 ![Install Kernel 1](/img/ker1.png)
 
 - There are three main scripts. The first script, getKernelSources.sh gets the kernel sources from the NVIDIA developer website, then unpacks the sources into /usr/src/kernel.
 
->`$ ./getKernelSources.sh`
-
+```
+$ ./getKernelSources.sh
+```
 - After the sources are installed, the script opens an editor on the kernel configuration file.
 
 **Note**: The local version needs to be set to match the release that you are building. For example, if you are building modules for a stock kernel, then the local versions should be -tegra which makes the kernel release name 4.4.38-tegra. If you are building a custom kernel, then you should add your own local version. In the video above, we used -jetsonbotv0.1 which results in 4.4.38-jetsobotv0.1.
@@ -54,8 +56,10 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Back to terminal, download packet and install it:
 
->`$ git clone https://github.com/jetsonhacks/buildOpenCVTX2.git`
->`$ ./buildOpenCV.sh`
+```
+$ git clone https://github.com/jetsonhacks/buildOpenCVTX2.git`
+$ ./buildOpenCV.sh
+```
 
 ![Download OpenCV](/img/cv4.png)
 
@@ -63,13 +67,15 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Checking modules after installation (These commands will install a gui to show modules):
 
->`$ cd /opencv/build`
+```
+$ cd /opencv/build
 
->`$ apt search ccmake`
+$ apt search ccmake
 
->`$ sudo apt-get install cmake-curses-gui`
+$ sudo apt-get install cmake-curses-gui
 
->`$ ccmake ..`
+$ ccmake ..
+```
 
 - Testing `cannyDetection.py` in `buildOpenCVTX2/Examples` , get result:
 
@@ -79,7 +85,9 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Downlaod and install `darknet` framework.
 
->`$ git clone https://github.com/pjreddie/darknet yolov3`
+```
+$ git clone https://github.com/pjreddie/darknet yolov3
+```
 
 - Access the folder and config 'Makefile'. We need to change some parameters to be suitable in this system.
 
@@ -88,9 +96,10 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Run in max-lock mode with:
 
->`$ sudo nvpmodel -m 0`
-
->`$ make`
+```
+$ sudo nvpmodel -m 0
+$ make
+```
 
 - You can also config in `yolov3.cfg` in `yolov3/cfg` directory. Remember to run `make` after changing anything in config file.
 
@@ -98,11 +107,14 @@ __(Or go to the VM tab at the top of the virtual machine, go to Removable Device
 
 - Run application: Detect objects in video.
 
->`$ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights traffic.mp4`
-
+```
+$ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights traffic.mp4
+```
 - Run application: In streaming video.
 
->`$ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -c 1`
+```
+$ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -c 1
+```
 
 ![Video-result](/img/y2.png)
 
