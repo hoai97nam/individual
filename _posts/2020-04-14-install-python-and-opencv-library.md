@@ -90,7 +90,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> cv2.__verion__
 '3.4.2'
 ```
-### Conclusion
+### Conclusions
 Two ways to install Python and OpenCV library. The first way quite hard and inefficient. The second on is recommendation for separated project.
 
 ## References
