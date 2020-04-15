@@ -24,7 +24,7 @@ You can use this link to download the latest version of [Jetpack] (https://devel
 ## Connect your hardware
 - Connect Internet to your host computer and your Jetson also.
 - Connect the Micro-B to USB cable from the Jetson to your computer.
-- Press the POWER butto. The Jetson powers up like normal. Press and hold the FORCE RECOVERY button, and while holding the FORCE RECOVERY button, press the RESET button. After two more seconds, release the FORCE RECOVERY button.
+- Press the POWER button. The Jetson powers up like normal. Press and hold the FORCE RECOVERY button, and while holding the FORCE RECOVERY button, press the RESET button. After two more seconds, release the FORCE RECOVERY button.
 - Make sure that your virtual machine detects the `NVIDIA Corp` USB device by a command `lsusb`.
 
 __(Or go to the VM tab at the top of the virtual machine, go to Removable Devices, choose USB and select NVIDIA Corp. APX)__
@@ -80,7 +80,7 @@ $ ccmake ..
 
 ## Build YOLO Application
 
-- Downlaod and install `darknet` framework.
+- Download and install `darknet` framework.
 
 ```
 $ git clone https://github.com/pjreddie/darknet yolov3
