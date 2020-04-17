@@ -124,8 +124,7 @@ $ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights -c 1
 **HAPPY HACKING**
 
 ## References
-https://docs.nvidia.com/jetson/archives/jetpack-archived/jetpack-411/index.html#jetpack/4.1.1/release_notes.htm%3FTocPath%3D_____2
+1. [Jetpack release notes](t.ly/KgDDR)
 
-http://www.slothparadise.com/setup-cuda-7-0-nvidia-jetson-tx1-jetpack-detailed/
-
+2. [How to Setup CUDA 7.0 on NVIDIA Jetson TX1 with JetPack – Detailed](t.ly/gZ6M8)
 
