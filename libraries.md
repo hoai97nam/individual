@@ -14,4 +14,4 @@ subtitle: Books, sources, papers, articles, ...
 
 - [Intern Project - 2019](/docs/intern_nguyenhoainam.pdf).
 
-- [Student Research](/docs/nguyenhoainam_tudienthucvat.pdf).
+- [Student Research - 2018](/docs/nguyenhoainam_tudienthucvat.pdf).
