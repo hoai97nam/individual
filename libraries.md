@@ -11,3 +11,7 @@ subtitle: Books, sources, papers, articles, ...
 - [Transfer Learning](https://phamdinhkhanh.github.io/2020/04/15/TransferLearning.html?fbclid=IwAR3BE1eovkrwvX4ymA_dy9VbAzSudOd_7au2nyR4bweRO5gCPn1agJOuRBc) - [Khanh's blog](https://phamdinhkhanh.github.io/home).
 
 - [My Thesis - Blockchain in Video on demand](/docs/NguyenHoaiNam_20-N15DCVT036.pdf).
+
+- [Intern Project - 2019](/docs/intern_nguyenhoainam.pdf).
+
+- [Student Research](/docs/nguyenhoainam_tudienthucvat.pdf).
