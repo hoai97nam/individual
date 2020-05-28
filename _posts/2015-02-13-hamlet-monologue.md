@@ -5,5 +5,4 @@ subtitle: Learning to be a Software Embedded Engineer
 tags: [Embedded, Software, Linux, C++]
 ---
 
-Recently, I have prepared for learning C/C++ to apply for Embedded Engineer.
-
+Học gì để trở thành kỹ sư nhúng phần mềm (Software Embedded) ? 
