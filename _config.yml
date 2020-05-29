@@ -21,9 +21,9 @@ description: All about technical and leisure life
 # List of links in the navigation bar
 navbar-links:
   Home: "http://hoai97nam.github.io"
-  About Me: "aboutme"
   Communications:
-    - Network:
+    - Network: "networks"
+  About Me: "aboutme"
   Resources:
     - Libraries: "libraries"
     #- Hobbies: ""
