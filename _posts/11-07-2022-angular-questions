@@ -1,0 +1,14 @@
+## Some questions in Angular framework
+### Phân biệt ngOnChange vs ngDoCheck vs ngZone
+Bối cảnh: Vì đang tìm hiểu các khái niệm chuẩn bị cho phỏng vấn hành trình nhảy việc 
+
+ngDoCheck Nó được gọi trên thành phần con khi thành phần mẹ đang được kiểm tra.
+ngOnChanges Nó được kích hoạt mỗi khi Angular phát hiện ra thay đổi đối với thuộc tính đầu vào ràng buộc dữ liệu.
+ngOnChanges không kích hoạt khi thuộc tính đầu vào là một mảng / đối tượng vì Angular sử dụng kiểm tra bẩn để so sánh các thuộc tính.
+ngOnCheck kích hoạt khi thuộc tính đầu vào là một mảng / đối tượng như lớp khách hàng, v.v.
+
+#### một câu trả lời khác:
+ngOnChanges() (OnChanges): để phát hiện các thay đổi đối với các biến được truyền theo giá trị
+
+ngDoCheck() (DoCheck): để phát hiện các thay đổi đối với biến được truyền bằng tham chiếu, 
+chẳng hạn như arraysbiến không được phát hiện bởi ngOnChanges()giá trị cũ và giá trị mới có cùng tham chiếu
