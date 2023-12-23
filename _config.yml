@@ -21,9 +21,8 @@ description: All about technical and leisure life
 # List of links in the navigation bar
 navbar-links:
   Home: "http://hoai97nam.github.io"
-  Posts: "http://hoai97nam.github.io"
   About Me: "aboutme"
-  Playgrounds: "Playgrounds"
+  Playgrounds: "playgrounds"
   Resources:
     - Libraries: "libraries"
     - Funny Crafts: "funny"
