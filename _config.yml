@@ -166,7 +166,7 @@ date_format: "%B %-d, %Y"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /post/:year-:month-:day-:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:

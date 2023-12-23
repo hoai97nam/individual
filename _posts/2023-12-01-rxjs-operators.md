@@ -6,6 +6,7 @@ published: true
 comment: true
 tags: [rxjs, operators]
 gh-badge: [star, fork, follow]
+permalink: /post/
 ---
 ## Most common rxjs operators
 
