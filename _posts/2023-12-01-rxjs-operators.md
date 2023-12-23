@@ -6,7 +6,7 @@ published: true
 comment: true
 tags: [rxjs, operators]
 gh-badge: [star, fork, follow]
-permalink: /post/
+permalink: /post/2023-12-01-rxjs-operators
 ---
 ## Most common rxjs operators
 
