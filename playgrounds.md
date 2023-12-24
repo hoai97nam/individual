@@ -4,5 +4,4 @@ title: Playgrounds
 subtitle: My Playgrounds
 ---
 
-### Codewar
-[https://www.codewars.com/users/hoai97nam/badges/large]()
+### Codewar: [https://www.codewars.com/users/hoai97nam/badges/large]()
