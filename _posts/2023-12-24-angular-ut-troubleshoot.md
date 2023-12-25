@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Most common rxjs operators
-subtitle: Most common rxjs operators can be misunderstood
+title: Error - Arguments array must have arguments
+subtitle: Error - Arguments array must have arguments
 published: true
 comment: true
-tags: [rxjs, operators]
+tags: [angular, unit test]
 gh-badge: [star, fork, follow]
 permalink: /post/2023-12-24-angular-ut-troubleshoot
 ---
-
 ## Fix lỗi "Arguments array must have arguments." khi run Angular unit test:
  
 ### Nguyên nhân: chưa cung cấp đủ các dependency cho constructor của component trong bước khởi tạo
